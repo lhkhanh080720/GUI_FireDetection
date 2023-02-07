@@ -1,8 +1,26 @@
-from PyQt5.QtWidgets import QApplication, QLabel
+from PyQt5.QtWidgets import QMainWindow, QApplication, QLabel, QVBoxLayout, QPushButton, QWidget
+from PyQt5 import uic
+import sys
 
-app = QApplication([])
+class MYUI(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("mainv1.ui", self)
+        self.show()
 
-label = QLabel("Hello World!")
-label.show()
+        #---------------------------#
+        self.plainTextEdit.setPlainText("")
+        self.pushButton.clicked.connect(self.btnHandle)
 
-app.exec_()
+    def btnHandle(self):
+        name = self.plainTextEdit.toPlainText()
+        self.labelText.setText("Hi: " + name)
+
+if __name__ == "__main__":
+    # Default
+    app = QApplication(sys.argv)
+
+    my_ui = MYUI()
+
+    # Default
+    app.exec_()
