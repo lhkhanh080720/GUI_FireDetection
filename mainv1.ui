@@ -6,34 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1560</width>
-    <height>635</height>
+    <width>1335</width>
+    <height>658</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Systerm Detect Fire</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>530</y>
-      <width>80</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="labelText1">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>30</y>
-      <width>581</width>
-      <height>391</height>
+      <x>10</x>
+      <y>10</y>
+      <width>640</width>
+      <height>480</height>
      </rect>
     </property>
     <property name="text">
@@ -43,10 +30,114 @@
    <widget class="QLabel" name="labelText2">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>30</y>
-      <width>701</width>
-      <height>411</height>
+      <x>680</x>
+      <y>10</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCPU1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>500</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCPU2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCPU4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>590</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCPU3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>560</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTEMP2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>540</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTEMP3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>570</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTEMP1">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>510</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelREALTIME">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>530</y>
+      <width>221</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -59,7 +150,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1560</width>
+     <width>1335</width>
      <height>20</height>
     </rect>
    </property>
